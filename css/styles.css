@@ -50,7 +50,7 @@ h1, h4{
 
 /* Features */
 
-.row{
+.feature-row{
   text-align: center;
   padding: 2rem 15rem;
 }
@@ -61,4 +61,17 @@ h1, h4{
 
 .feature-icon{
   margin-bottom: 1rem;
+}
+
+/* Description */
+
+.description-row {
+  text-align: center;
+  padding: 2rem 10rem;
+}
+
+.description {
+  text-align: left;
+  line-height: 1.5rem;
+  padding: 7% 3% 2%;
 }
