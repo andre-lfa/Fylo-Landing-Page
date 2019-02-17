@@ -1,90 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
-
-  <!-- Bootstrap -->
+  <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <section id="nav-bar">
-    <div class="nav-bar">
-      Features
-      Team
-      Sign In
-    </div>
-  </section>
+  <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="images\logo.svg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cta">Sign In</a>
+          </li>
+          </ul>
+      </div>
+    </nav>
 
   <section id="introduction">
     <h1>All your files in one secure location, accessible anywhere.</h2>
 
-    <p>Fylo stores all your most important files in one secure location. Access them wherever
-    you need, share and collaborate with friends family, and co-workers.</p>
+      <p>Fylo stores all your most important files in one secure location. Access them wherever
+        you need, share and collaborate with friends family, and co-workers.</p>
 
-    <button type="button" name="button">Get Started</button>
+      <button type="button" name="button">Get Started</button>
   </section>
 
   <section id="features">
     <h2>Access your files, anywhere</h2>
 
     <p>The ability to use a smartphone, tablet, or computer to access your account means your
-    files follow you everywhere.</p>
+      files follow you everywhere.</p>
 
     <h2>Security you can trust</h2>
 
     <p>2-factor authentication and user-controlled encryption are just a couple of the security
-    features we allow to help secure your files.</p>
+      features we allow to help secure your files.</p>
 
     <h2></h2>Real-time collaboration
 
     <p>Securely share files and folders with friends, family and colleagues for live collaboration.
-    No email attachments required.</p>
+      No email attachments required.</p>
 
     <h2>Store any type of file</h2>
 
     <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
-    file types to be securely stored and shared.</p>
+      file types to be securely stored and shared.</p>
   </section>
 
   <section id="description">
     <h1>Stay productive, wherever you are</h1>
 
     <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file
-    storage needs.</p>
+      storage needs.</p>
 
     <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email
-    attachments required.</p>
+      attachments required.</p>
 
     <a href="#">See how Fylo works</a>
   </section>
 
   <section id="testimonials">
     <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-    become a well-oiled collaboration machine</p>.
+      become a well-oiled collaboration machine</p>.
 
     <p>Satish Patel</p>
     <p>Founder & CEO, Huddle</p>
 
     <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-    become a well-oiled collaboration machine.</p>
+      become a well-oiled collaboration machine.</p>
 
     <p>Bruce McKenzie</p>
     <p>Founder & CEO, Huddle</p>
 
     <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-    become a well-oiled collaboration machine.</p>
+      become a well-oiled collaboration machine.</p>
 
     <p>Iva Boyd</p>
     <p>Founder & CEO, Huddle</p>
@@ -94,17 +110,17 @@
     <h1>Get early access today</h1>
 
     <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
-    questions, our support team would be happy to help you.</p>
+      questions, our support team would be happy to help you.</p>
 
     <button type="button" name="button">Get Started For Free</button>
   </section>
 
   <section id="footer">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-    dolore magna aliqua</p>
+      dolore magna aliqua</p>
 
     <p>+1-543-123-4567
-    example@fylo.com</p>
+      example@fylo.com</p>
 
     About Us
     Jobs
@@ -123,4 +139,5 @@
     </p>
   </footer>
 </body>
+
 </html>

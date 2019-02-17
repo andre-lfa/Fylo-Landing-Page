@@ -1,0 +1,16 @@
+body{
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 5% 4%;
+}
+.nav-item{
+  padding: 0 1.5rem;
+}
+.nav-link{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
