@@ -4,7 +4,7 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-h1{
+h1, h4{
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
@@ -47,3 +47,18 @@ h1{
 }
 
 .btn-grad {background-image: linear-gradient(to right, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 90%)}
+
+/* Features */
+
+.row{
+  text-align: center;
+  padding: 2rem 15rem;
+}
+
+.feature-item{
+  padding: 5%;
+}
+
+.feature-icon{
+  margin-bottom: 1rem;
+}
