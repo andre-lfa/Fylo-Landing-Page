@@ -108,6 +108,20 @@ h1, h4{
   margin-bottom: 0;
 }
 
+/* CTA */
+
+.cta{
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  top: 4rem;
+  width: 50%;
+  height: 50%;
+  left: 25rem;
+  font-family: 'Raleway', sans-serif;
+  background-color: hsl(217, 28%, 15%);
+}
+
 /* Footer */
 
 .footer {
@@ -121,7 +135,7 @@ h1, h4{
   line-height: 2;
 }
 
-.row{
+.footer-row{
   padding-top: 20%;
 }
 
@@ -140,4 +154,9 @@ h1, h4{
 
 .location{
   width: 22rem;
+}
+
+.email-input{
+  border-radius: 1.2rem;
+  margin-bottom: 1rem;
 }
