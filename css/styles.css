@@ -9,6 +9,7 @@ h1, h4{
   font-weight: 700;
 }
 
+
 /* Navigation Bar */
 .navbar{
   padding: 5% 4%;
@@ -105,4 +106,38 @@ h1, h4{
 
 .name{
   margin-bottom: 0;
+}
+
+/* Footer */
+
+.footer {
+  padding: 5% 5%;
+  background-color: hsl(216, 53%, 9%);
+}
+
+.bottom-button {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2;
+}
+
+.row{
+  padding-top: 20%;
+}
+
+.footer-logo {
+  position: absolute;
+  bottom: 10rem;
+}
+
+.fab {
+  padding: 0 10px;
+}
+
+.fas {
+  padding-right: 2rem;
+}
+
+.location{
+  width: 22rem;
 }
